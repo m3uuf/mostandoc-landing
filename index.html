@@ -6,7 +6,7 @@
     <title>مستندك - منصة إدارة الأعمال والمستندات</title>
     <meta name="description" content="منصة عربية متكاملة لإدارة الأعمال، العملاء، الفواتير، العقود، والتوقيع الإلكتروني. ابدأ مجاناً الآن!">
     <meta name="keywords" content="إدارة أعمال, فواتير, عقود, توقيع إلكتروني, إدارة عملاء, SaaS عربي">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -224,9 +224,9 @@
         .inv-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 18px; }
         .inv-brand { display: flex; align-items: center; gap: 8px; }
         .inv-logo {
-            width: 30px; height: 30px; background: var(--orange); border-radius: 8px;
+            width: 30px; height: 30px; border-radius: 8px;
             display: flex; align-items: center; justify-content: center;
-            color: white; font-size: 0.6rem; font-weight: 700;
+            overflow: hidden;
         }
         .inv-name { font-weight: 700; font-size: 0.9rem; }
         .inv-addr { font-size: 0.55rem; color: var(--text-lighter); }
@@ -468,7 +468,7 @@
     <nav id="navbar">
         <div class="container">
             <a href="#" class="logo">
-                <div class="logo-icon"><svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="62" y="2" width="52" height="52" rx="10" fill="#E8752A"/><rect x="2" y="62" width="52" height="52" rx="10" fill="#E8752A"/><rect x="62" y="62" width="52" height="52" rx="10" fill="#E8752A"/></svg></div>
+                <div class="logo-icon"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="nc"><rect width="200" height="200" rx="40"/></clipPath></defs><g clip-path="url(#nc)"><rect width="200" height="200" fill="#F97316"/><path d="M0 75 C50 95,120 65,200 90 L200 0 L0 0Z" fill="#F0E2C8"/><path d="M0 48 C50 68,120 38,200 58 L200 0 L0 0Z" fill="#3B60E6"/><polygon points="128,108 138,132 128,156 118,132" fill="white"/><polygon points="108,88 112,98 108,108 104,98" fill="white" opacity="0.7"/></g></svg></div>
                 مستندك
             </a>
             <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">&#9776;</button>
@@ -562,7 +562,7 @@
                         <div class="inv">
                             <div class="inv-top">
                                 <div class="inv-brand">
-                                    <div class="inv-logo"><svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:18px;height:18px"><rect x="62" y="2" width="52" height="52" rx="10" fill="white"/><rect x="2" y="62" width="52" height="52" rx="10" fill="white"/><rect x="62" y="62" width="52" height="52" rx="10" fill="white"/></svg></div>
+                                    <div class="inv-logo"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width:30px;height:30px"><defs><clipPath id="ic"><rect width="200" height="200" rx="40"/></clipPath></defs><g clip-path="url(#ic)"><rect width="200" height="200" fill="#F97316"/><path d="M0 75 C50 95,120 65,200 90 L200 0 L0 0Z" fill="#F0E2C8"/><path d="M0 48 C50 68,120 38,200 58 L200 0 L0 0Z" fill="#3B60E6"/><polygon points="128,108 138,132 128,156 118,132" fill="white"/><polygon points="108,88 112,98 108,108 104,98" fill="white" opacity="0.7"/></g></svg></div>
                                     <div><div class="inv-name">شركة الابتكار للتقنية</div><div class="inv-addr">الرياض، المملكة العربية السعودية</div></div>
                                 </div>
                                 <div class="inv-meta">
@@ -790,7 +790,7 @@
     <footer>
         <div class="container">
             <div class="foot">
-                <a href="#" class="foot-logo"><div class="logo-icon"><svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="62" y="2" width="52" height="52" rx="10" fill="#E8752A"/><rect x="2" y="62" width="52" height="52" rx="10" fill="#E8752A"/><rect x="62" y="62" width="52" height="52" rx="10" fill="#E8752A"/></svg></div> مستندك</a>
+                <a href="#" class="foot-logo"><div class="logo-icon"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="fc"><rect width="200" height="200" rx="40"/></clipPath></defs><g clip-path="url(#fc)"><rect width="200" height="200" fill="#F97316"/><path d="M0 75 C50 95,120 65,200 90 L200 0 L0 0Z" fill="#F0E2C8"/><path d="M0 48 C50 68,120 38,200 58 L200 0 L0 0Z" fill="#3B60E6"/><polygon points="128,108 138,132 128,156 118,132" fill="white"/><polygon points="108,88 112,98 108,108 104,98" fill="white" opacity="0.7"/></g></svg></div> مستندك</a>
                 <ul class="foot-links"><li><a href="#features">المميزات</a></li><li><a href="#pricing">الأسعار</a></li><li><a href="mailto:info@mostandoc.com">تواصل معنا</a></li></ul>
                 <p class="foot-copy">&copy; 2026 مستندك. جميع الحقوق محفوظة.</p>
             </div>
