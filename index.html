@@ -51,11 +51,9 @@
         nav.scrolled { border-bottom-color: var(--border); box-shadow: var(--shadow); }
         nav .container { display: flex; justify-content: space-between; align-items: center; }
         .logo {
-            display: flex; align-items: center; gap: 10px;
-            font-size: 1.4rem; font-weight: 700; text-decoration: none; color: var(--text);
+            display: flex; align-items: center; text-decoration: none;
         }
-        .logo-icon { width: 38px; height: 38px; }
-        .logo-icon svg { width: 100%; height: 100%; }
+        .logo img { height: 40px; width: auto; }
         .nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
         .nav-links a {
             color: var(--text-light); text-decoration: none; font-weight: 500;
@@ -417,10 +415,9 @@
         footer { background: white; border-top: 1px solid var(--border); padding: 40px 0 28px; }
         .foot { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
         .foot-logo {
-            display: flex; align-items: center; gap: 10px;
-            font-size: 1.1rem; font-weight: 700; text-decoration: none; color: var(--text);
+            display: flex; align-items: center; text-decoration: none;
         }
-        .foot-logo .logo-icon { width: 30px; height: 30px; }
+        .foot-logo img { height: 32px; width: auto; }
         .foot-links { display: flex; gap: 24px; list-style: none; }
         .foot-links a { color: var(--text-light); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
         .foot-links a:hover { color: var(--text); }
@@ -468,8 +465,7 @@
     <nav id="navbar">
         <div class="container">
             <a href="#" class="logo">
-                <div class="logo-icon"><svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="62" y="2" width="52" height="52" rx="10" fill="#E8752A"/><rect x="2" y="62" width="52" height="52" rx="10" fill="#E8752A"/><rect x="62" y="62" width="52" height="52" rx="10" fill="#E8752A"/></svg></div>
-                مستندك
+                <img src="assets/logo-horizontal.png" alt="مستندك">
             </a>
             <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">&#9776;</button>
             <ul class="nav-links">
@@ -790,7 +786,7 @@
     <footer>
         <div class="container">
             <div class="foot">
-                <a href="#" class="foot-logo"><div class="logo-icon"><svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="62" y="2" width="52" height="52" rx="10" fill="#E8752A"/><rect x="2" y="62" width="52" height="52" rx="10" fill="#E8752A"/><rect x="62" y="62" width="52" height="52" rx="10" fill="#E8752A"/></svg></div> مستندك</a>
+                <a href="#" class="foot-logo"><img src="assets/logo-horizontal.png" alt="مستندك"></a>
                 <ul class="foot-links"><li><a href="#features">المميزات</a></li><li><a href="#pricing">الأسعار</a></li><li><a href="mailto:info@mostandoc.com">تواصل معنا</a></li></ul>
                 <p class="foot-copy">&copy; 2026 مستندك. جميع الحقوق محفوظة.</p>
             </div>
